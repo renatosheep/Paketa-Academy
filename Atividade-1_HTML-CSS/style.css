@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.imagem_top {
+  max-width: 600px;
+}
+
+h1,
+h2 {
+  font-family: "Poppins", sans-serif;
+}
+
+.conteudo {
+  width: 1200px;
+  max-width: 100%;
+  padding: 40px 10px;
+  margin: auto;
+}
+
+.conteudo_ {
+    display: flex;
+}
+
+header {
+  background-image: url(images/bg-hero-desktop.svg);
+  background-color: hsl(193, 100%, 96%);
+  background-size: cover;
+  background-position: center;
+  padding: 40px 0;
+}
+
+nav {
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.botao1 {
+  padding: 15px 50px;
+  border-radius: 50px;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  font-size: 20px;
+  font-weight: 700;
+  background-color: white;
+}
+
+.botao2,
+.botao3 {
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  padding: 15px 50px;
+  border-radius: 50px;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.caixas {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+  margin: 40px 0;
+  padding: 50px;
+  display: flex;
+}
+
+.caixas img {
+  width: 50%;
+}
+.caixafinal {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+  padding: 50px;
+  display: inline-block;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+}
+
+footer {
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    padding: 180px 0 60px;
+}
