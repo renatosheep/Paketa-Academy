@@ -97,7 +97,7 @@ h1{
 
 
 /*MAIN CONTAINER*/
-.container{
+.main{
   max-width: 1000px;
   margin: 80px auto;
 }
@@ -227,6 +227,7 @@ h1{
 .info-footer li a{
   text-decoration: none;
   color: white;
+  line-height: 2.5em;
 }
 
 .info-footer ol li:nth-child(odd) {
