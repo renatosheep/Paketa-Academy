@@ -91,8 +91,8 @@ h1{
 }
 
 .description button:hover{
-  background-color: white;
-  color:black;
+  background-color: hsl(322, 90%, 82%);
+  color:white;
 }
 
 
@@ -169,8 +169,8 @@ h1{
 }   
 
 .container-section button:hover{
-  background-color: white;
-  color: #000;
+  background-color: hsl(322, 90%, 82%);;
+  color: white;
 }
 
 /*FOOTER*/
@@ -204,7 +204,7 @@ h1{
 
 .container-info{
   margin-bottom: 20px;  
-  width: 315px;     
+  width: 375px;     
 }
 
 .container-info img{
