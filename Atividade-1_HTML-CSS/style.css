@@ -249,5 +249,7 @@ h1{
 }
 
 .social-network img:hover{
-  background-color: hsl(322, 100%, 66%);  
+  background-color: hsl(322, 100%, 66%); 
+  border-radius: 60%; 
+  border-width: none;
 }
